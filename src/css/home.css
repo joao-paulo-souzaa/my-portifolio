@@ -1,0 +1,60 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 77vh;
+    /* background-color: bisque; */
+}
+ 
+.home .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px 140px;
+}
+
+.home .left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.home .left .hello{
+    padding: 8px;
+    background: rgba(122, 74, 226, 0.201);
+    color: #7b4ae2;
+    font-weight: 700;
+    border-radius: 16px;
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .left .name-and-title h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.home .left .name-and-title h6{
+    font-size: 18px;
+}
+
+.home .left .my-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .right{
+    /* padding-left: 160px; */
+}
+
+.right .whats-icon{
+    width: 40px;
+}
+
+.

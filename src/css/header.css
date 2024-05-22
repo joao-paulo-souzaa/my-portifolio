@@ -1,0 +1,40 @@
+.header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .menu{
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .menu .logo{
+    width: 50px;
+}
+
+.header .menu .nav-itens{
+    width: 400px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px 0px 0px;
+}
+
+.header .menu .nav-itens li a{
+    transition: 0.5s ease-in-out;
+    padding: 1rem;
+}
+
+.header .menu .nav-itens li a:hover{
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.
