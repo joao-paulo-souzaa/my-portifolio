@@ -38,23 +38,27 @@
 .home .left .name-and-title h1{
     font-size: 50px;
     font-weight: 800;
+    margin: 20px 0px;
 }
 .home .left .name-and-title h6{
     font-size: 18px;
+    font-weight: 400;
+}
+
+.home .left .social-media{
+    display: flex;
+    margin-top: 20px;
+    gap: 15px;
 }
 
 .home .left .my-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 .home .right{
-    /* padding-left: 160px; */
+    
 }
 
 .right .whats-icon{
     width: 40px;
 }
-
-.
