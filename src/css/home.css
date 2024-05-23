@@ -65,9 +65,10 @@
 
 .home .container .right span{
     font-size: 18px;
+    font-weight: 600;
 }
 
-.home .container .right a{
+.home .container .right .whats-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,19 +77,30 @@
 }
 
 
-.home .container .right button{
+.home .container .right .whats-button{
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(122, 74, 226, 0.201);
     border-radius: 20px;
-    width: 275px;
+    width: 230px;
     height: 50px;
+    box-shadow: 0px 1px 3px black;;
 }
 
-
-
 .home .right .whats-icon{
-    width: 35px;
+    width: 30px;   
+}
+
+.home .right .download-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    
+}
+
+.home .right .download-icon{
+    width: 15px;   
     
 }
