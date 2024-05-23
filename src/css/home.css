@@ -20,6 +20,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .home .left .hello{
@@ -55,10 +56,39 @@
     
 }
 
-.home .right{
-    
+.home .container .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.right .whats-icon{
-    width: 40px;
+.home .container .right span{
+    font-size: 18px;
+}
+
+.home .container .right a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5px;
+}
+
+
+.home .container .right button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(122, 74, 226, 0.201);
+    border-radius: 20px;
+    width: 275px;
+    height: 50px;
+}
+
+
+
+.home .right .whats-icon{
+    width: 35px;
+    
 }
