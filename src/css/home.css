@@ -40,10 +40,12 @@
     font-size: 50px;
     font-weight: 800;
     margin: 20px 0px;
+    color: var(--white);
 }
 .home .left .name-and-title h6{
     font-size: 18px;
     font-weight: 400;
+    color: var(--light-gray);
 }
 
 .home .left .social-media{

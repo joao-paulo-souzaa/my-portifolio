@@ -19,20 +19,20 @@
 
 .header .menu .nav-itens{
     width: 400px;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 100px 0px 0px;
+    margin-right: 70px;
 }
 
 .header .menu .nav-itens li a{
     transition: 0.5s ease-in-out;
-    padding: 1rem;
+    padding: 8px;
+    color: var(--light-gray);
 }
 
 .header .menu .nav-itens li a:hover{
     background-color: #000;
-    color: #fff;
     border-radius: 15px;
 }
