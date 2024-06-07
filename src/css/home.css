@@ -25,8 +25,8 @@
 
 .home .left .hello{
     padding: 8px;
-    background: rgba(122, 74, 226, 0.201);
-    color: #7b4ae2;
+    background: var(--hello-background);
+    color: var(--hello-text);
     font-weight: 700;
     border-radius: 16px;
     margin: 0;
@@ -85,13 +85,17 @@
     align-items: center;
     background: rgba(122, 74, 226, 0.201);
     border-radius: 20px;
-    width: 230px;
-    height: 50px;
-    box-shadow: 0px 1px 3px black;;
+    padding: 12px;
+    border: 2px solid var(--hello-text);
+}
+
+.home .container .right .whats-button span{
+    color: var(--white);
 }
 
 .home .right .whats-icon{
-    width: 30px;   
+    width: 30px;
+    filter: invert(100%);  
 }
 
 .home .right .download-link{
@@ -99,10 +103,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px; 
-    
 }
 
 .home .right .download-icon{
     width: 15px;   
-    
 }
