@@ -64,18 +64,28 @@
     justify-content: center;
 }
 
+.home .container .right .download-link{
+    color: var(--white);
+}
+
+.home .container .right .download-icon{
+    filter: invert(100%);
+    width: 25px;
+}
+
 .home .container .right span{
     font-size: 18px;
     font-weight: 600;
 }
 
 .home .container .right .whats-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
-    padding-bottom: 5px;
 }
+
+.home .container .right .whats-link:hover{
+    background-color: var(--hello-background);
+}
+
 
 
 .home .container .right .whats-button{
@@ -86,6 +96,7 @@
     border-radius: 20px;
     padding: 12px;
     border: 2px solid var(--hello-text);
+    margin-top: 10px;
 }
 
 .home .container .right .whats-button span{
