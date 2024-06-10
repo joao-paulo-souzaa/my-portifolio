@@ -64,6 +64,15 @@
     justify-content: center;
 }
 
+.home .container .right .download-link{
+    color: var(--white);
+}
+
+.home .container .right .download-icon{
+    filter: invert(100%);
+    width: 25px;
+}
+
 .home .container .right .cv-container{
     display: flex;
     justify-content: center;
@@ -93,11 +102,10 @@
 }
 
 .home .container .right .whats-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
+    padding-bottom: 5px;
 }
+
 
 .home .container .right .whats-button{
     display: flex;
