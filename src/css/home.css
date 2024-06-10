@@ -64,9 +64,32 @@
     justify-content: center;
 }
 
-.home .container .right span{
-    font-size: 18px;
-    font-weight: 600;
+.home .container .right .cv-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+}
+
+.home .container .right .cv-container .download-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; 
+    color: var(--white);
+}
+
+.home .container .right .cv-container .download-link:hover{
+    color: var(--hello-text);
+}
+
+.home .container .right .cv-container .material-symbols-outlined{
+    width: 30px;
+}
+
+.home .container .right .cv-container .material-symbols-outlined:hover{
+    color: var(--hello-text);
 }
 
 .home .container .right .whats-link{
@@ -74,9 +97,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-bottom: 5px;
 }
-
 
 .home .container .right .whats-button{
     display: flex;
@@ -86,24 +107,17 @@
     border-radius: 20px;
     padding: 12px;
     border: 2px solid var(--hello-text);
+    margin-top: 10px;
 }
 
-.home .container .right .whats-button span{
-    color: var(--white);
-}
 
 .home .right .whats-icon{
     width: 30px;
-    filter: invert(100%);  
+    filter: invert(100%);
 }
 
-.home .right .download-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; 
-}
-
-.home .right .download-icon{
-    width: 15px;   
+.home .container .right .whats-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
 }
