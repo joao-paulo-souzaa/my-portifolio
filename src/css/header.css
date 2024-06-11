@@ -29,7 +29,7 @@
 .header .menu .nav-itens li a{
     transition: 0.5s ease-in-out;
     padding: 8px;
-    color: var(--light-gray);
+    color: var(--white);
 }
 
 .header .menu .nav-itens li a:hover{
