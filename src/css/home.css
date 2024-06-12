@@ -1,4 +1,4 @@
-.home{
+#home{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,7 +6,7 @@
     height: 77vh;
 }
  
-.home .container{
+#home .home-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@
     margin: 0px 140px;
 }
 
-.home .left{
+#home  .home-container .left{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-.home .left .hello{
+#home .home-container .left .hello{
     padding: 8px;
     background: var(--hello-background);
     color: var(--hello-text);
@@ -35,36 +35,36 @@
     justify-content: center;
 }
 
-.home .left .name-and-title h1{
+#home .home-container .left .name-and-title h1{
     font-size: 50px;
     font-weight: 800;
     margin: 20px 0px;
     color: var(--white);
 }
-.home .left .name-and-title h6{
+#home .home-container .left .name-and-title h6{
     font-size: 18px;
     font-weight: 400;
     color: var(--light-gray);
 }
 
-.home .left .social-media{
+#home .home-container .left .social-media{
     display: flex;
     margin-top: 20px;
     gap: 15px;
 }
 
-.home .left .my-image{
+#home .home-container .left .my-avatar{
     
 }
 
-.home .container .right{
+#home .home-container .right{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.home .container .right .download-link{
+#home .home-container .right .download-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,22 +72,22 @@
     color: var(--white);
 }
 
-.home .container .right .download-link:hover{
+#home .home-container .right .download-link:hover{
     color: var(--hello-text);
 }
 
-.home .container .right .material-symbols-outlined{
+#home .home-container .right .material-symbols-outlined{
     width: 25px;
 }
 
-.home .container .right .whats-link{
+#home .home-container .right .whats-link{
     gap: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home .container .right .whats-button{
+#home .home-container .right .whats-button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,17 +99,17 @@
     transition: 0.3s ease-in-out;
 }
 
-.home .container .right .whats-button:hover{
+#home .home-container .right .whats-button:hover{
     background-color: var(--hello-background);
     border: none;
 }
 
-.home .right .whats-icon{
+#home .home-container .right .whats-icon{
     width: 30px;
     filter: invert(100%);  
 }
 
-.home .container .right .whats-button span{
+#home .home-container .right .whats-button span{
     font-size: 18px;
     font-weight: 600;
     color: var(--white);
