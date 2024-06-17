@@ -1,18 +1,23 @@
 #about{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-    height: 35vh;
+    max-width: 100%;
 }
 
 #about .about-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: 0px 140px;
-    background-color: ;
+    max-width: 100%;
 }
 
-#about .about-container .h4
+#about .about-container .info-about{ 
+    max-width: 100%;
+}
+
+#about .about-container .info-about h4{
+    max-width: 100%;
+}
+
+#about .about-container .info-about h2{
+    max-width: 100%;
+}
+
+#about .about-container .info-about p{
+    max-width: 100%;
+}
