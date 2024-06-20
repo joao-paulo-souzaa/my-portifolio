@@ -49,9 +49,22 @@
 
 #home .home-container .left .social-media{
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 20px;
     gap: 15px;
 }
+
+#home .home-container .left .social-media ion-icon {
+    color: var(--white);
+    font-size: 35px;
+    transition: 0.5s ease-in-out;
+}
+
+#home .home-container .left .social-media ion-icon:hover{
+    color: var(--hello-text);
+}
+
 
 #home .home-container .left .my-avatar{
     
@@ -60,8 +73,8 @@
 #home .home-container .right{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
 }
 
 #home .home-container .right .download-link{
@@ -70,6 +83,7 @@
     align-items: center;
     gap: 10px; 
     color: var(--white);
+    transition: 0.5s ease-in-out;
 }
 
 #home .home-container .right .download-link:hover{
@@ -96,7 +110,7 @@
     padding: 12px;
     border: 2px solid var(--hello-text);
     margin-top: 10px;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 #home .home-container .right .whats-button:hover{
