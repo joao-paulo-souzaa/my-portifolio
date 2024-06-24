@@ -55,14 +55,12 @@
     gap: 15px;
 }
 
-#home .home-container .left .social-media ion-icon {
-    color: var(--white);
-    font-size: 35px;
+#home .home-container .left .social-media i {
     transition: 0.5s ease-in-out;
 }
 
-#home .home-container .left .social-media ion-icon:hover{
-    color: var(--hello-text);
+#home .home-container .left .social-media i:hover{
+    color: var(--hello-text) !important;
 }
 
 
