@@ -1,0 +1,31 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+}
+
+#footer .line{
+    border-top: 1px solid var(--hello-text);
+    width: 100%;
+    max-width: 1640px;
+    height: 60px;
+    display: flex;justify-content: space-between;
+    align-items: center;
+}
+
+#footer h1{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#footer .social-media i {
+    margin-left: 20px;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+#footer .social-media i:hover{
+    color: var(--hello-text) !important;
+}

@@ -1,0 +1,82 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+}
+
+#contact .contact-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact .contact-container h1{
+    color: var(--white);
+}
+
+
+#contact .contact-container .whats-email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#contact .contact-container .whats-email .whats-link{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .contact-container .whats-email .whats-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(122, 74, 226, 0.201);
+    border-radius: 20px;
+    padding: 12px;
+    border: 2px solid var(--hello-text);
+    margin: 0px 40px 0px 0px;
+    transition: 0.5s ease-in-out;
+}
+
+#contact .contact-container .whats-email .whats-button:hover{
+    background-color: var(--hello-background);
+    border: none;
+}
+
+#contact .contact-container .whats-email .whats-icon{
+    width: 30px;
+    filter: invert(100%);  
+}
+
+#contact .contact-container .whats-email .whats-button span{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+#contact .contact-container .whats-email .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+#contact .contact-container .whats-email .email .icon-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact .contact-container .whats-email .email h5{
+    margin-top: 10px;
+    color: var(--hello-text);
+}

@@ -31,10 +31,31 @@
     margin-top: 50px;
 }
 
+
 #projects .projects-container .cards .card-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
     padding: 25px;
-    width: 360px;
-    height: 460px;
-    background-color: white;
-    opacity: 0.8;
+    width: 310px;
+    height: 370px;
+    border-radius: 12px;
+    background-color: var(--white);
+}
+
+#projects .projects-container .cards .card-content img{
+    width: 300px;
+    height: 200px;
+}
+
+#projects .projects-container .cards .card-content .info-projects h4{ 
+    color: var(--hello-text);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#projects .projects-container .cards .card-content .info-projects p{ 
+    font-size: 16px;
+    margin-bottom: 20px;
 }
