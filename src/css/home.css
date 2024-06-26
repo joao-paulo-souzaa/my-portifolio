@@ -40,6 +40,7 @@
     margin: 20px 0px;
     color: var(--white);
 }
+
 #home .home-container .left .name-and-title h6{
     font-size: 18px;
     font-weight: 400;
@@ -60,11 +61,6 @@
 
 #home .home-container .left .social-media i:hover{
     color: var(--hello-text) !important;
-}
-
-
-#home .home-container .my-avatar{
-    
 }
 
 #home .home-container .right{
